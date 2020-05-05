@@ -12,3 +12,22 @@
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
 }
+
+/* Hero section */
+
+header {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header > div {
+    padding-top: 40vh;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;   
+}
