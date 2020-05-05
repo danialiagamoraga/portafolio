@@ -15,19 +15,17 @@
 
 /* Hero section */
 
-header {
-    background-image: url('../img/bg_hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-header > div {
-    padding-top: 40vh;
-}
-
 header h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 72px;   
+}
+
+@media (max-width: 640px) { 
+    .carousel-item img {
+        -webkit-transform:translate(-30%, 0%);
+        -moz-transform:translate(-30%, 0%);
+        -ms-transform:translate(-30%, 0%);
+        -o-transform:translate(-30%, 0%);
+        transform:translate(-30%, 0%);
+    } 
 }
