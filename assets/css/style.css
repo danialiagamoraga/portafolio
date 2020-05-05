@@ -67,3 +67,22 @@ header h1 {
         transform:translate(-30%, 0%);
     } 
 }
+
+/* #experiencia */
+
+#experiencia h3, #experiencia p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.55em;
+}
+
+#experiencia i {
+    color: #660066;
+}
+
+.carousel-indicators {
+    bottom: -45px; 
+}
+
+.carousel-indicators li {
+    background-color: #660066;
+}
