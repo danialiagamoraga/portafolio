@@ -3,6 +3,16 @@
     font-family: 'Open Sans', sans-serif;
 */
 
+body {
+    color: #373A3C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulos {
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+}
+
 /* Navegación principal */
 .bg-purple { 
     background-color: #660066;
@@ -11,6 +21,14 @@
 .logo {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    font-weight: 700;
+}
+
+.logo hr {
+    display: block;
+    height: 1px;
+    background-color: #373A3C;
+    width: 115px;
 }
 
 /* Hero section */
@@ -19,6 +37,26 @@ header h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 72px;   
 }
+
+/* #sobre-mi */
+
+#sobre-mi h2{
+    font-size: 1.55em;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#sobre-mi hr{
+    width: 115px;
+    height: 1px;
+    background-color: #373A3C
+}
+
+#sobre-mi p {
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 @media (max-width: 640px) { 
     .carousel-item img {
