@@ -13,6 +13,13 @@ body {
     font-size: 52px;
 }
 
+.titulos hr {
+    display: block;
+    height: 1px;
+    background-color: #373A3C;
+    width: 115px;
+}
+
 .bg-purple { 
     background-color: #660066;
 }
@@ -22,14 +29,6 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
-
-.logo hr {
-    display: block;
-    height: 1px;
-    background-color: #373A3C;
-    width: 115px;
-}
-
 
 header h1 {
     font-family: 'Oswald', sans-serif;
@@ -42,7 +41,7 @@ header h1 {
     font-weight: 600;
 }
 
-#sobre-mi hr{
+#sobre-mi hr {
     width: 115px;
     height: 1px;
     background-color: #373A3C
@@ -51,6 +50,10 @@ header h1 {
 #sobre-mi p {
     line-height: 35px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#sobre-mi .carousel-caption h1 {
+    font-size: 72px;
 }
 
 #experiencia h3, #experiencia p {
@@ -104,6 +107,14 @@ header h1 {
 }
 
 @media (max-width: 640px) { 
+    .titulos {
+        font-size: 35px;
+    }
+
+    #sobre-mi .carousel-caption h1 {
+        font-size: 40px;
+    }
+
     .carousel-item img {
         -webkit-transform:translate(-30%, 0%);
         -moz-transform:translate(-30%, 0%);
