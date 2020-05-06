@@ -79,10 +79,36 @@ header h1 {
     color: #660066;
 }
 
-.carousel-indicators {
+#experiencia .carousel-indicators {
     bottom: -45px; 
 }
 
 .carousel-indicators li {
     background-color: #660066;
+}
+
+/* #experiencia */
+
+.card {
+    border: none;
+}
+
+.card:hover .card-title, .card:hover .card-text{
+    color: #660066;
+    cursor: pointer;
+}
+
+.card:hover img{
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.45em;  
+}
+
+.card-text {
+    font-size: 1em;
 }
