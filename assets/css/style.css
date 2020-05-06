@@ -13,7 +13,6 @@ body {
     font-size: 52px;
 }
 
-/* Navegación principal */
 .bg-purple { 
     background-color: #660066;
 }
@@ -31,14 +30,11 @@ body {
     width: 115px;
 }
 
-/* Hero section */
 
 header h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 72px;   
 }
-
-/* #sobre-mi */
 
 #sobre-mi h2{
     font-size: 1.55em;
@@ -57,19 +53,6 @@ header h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-@media (max-width: 640px) { 
-    .carousel-item img {
-        -webkit-transform:translate(-30%, 0%);
-        -moz-transform:translate(-30%, 0%);
-        -ms-transform:translate(-30%, 0%);
-        -o-transform:translate(-30%, 0%);
-        transform:translate(-30%, 0%);
-    } 
-}
-
-/* #experiencia */
-
 #experiencia h3, #experiencia p {
     font-family: 'Oswald', sans-serif;
     font-size: 1.55em;
@@ -86,8 +69,6 @@ header h1 {
 .carousel-indicators li {
     background-color: #660066;
 }
-
-/* #experiencia */
 
 .card {
     border: none;
@@ -111,4 +92,23 @@ header h1 {
 
 .card-text {
     font-size: 1em;
+}
+
+.tooltip-inner{ 
+    background-color: #DDDDDD;
+    color: #660066;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #DDDDDD !important;
+}
+
+@media (max-width: 640px) { 
+    .carousel-item img {
+        -webkit-transform:translate(-30%, 0%);
+        -moz-transform:translate(-30%, 0%);
+        -ms-transform:translate(-30%, 0%);
+        -o-transform:translate(-30%, 0%);
+        transform:translate(-30%, 0%);
+    } 
 }
