@@ -107,6 +107,9 @@ header h1 {
 }
 
 @media (max-width: 640px) { 
+    .logo {
+        font-size: 30px;
+    }
     .titulos {
         font-size: 35px;
     }
@@ -121,5 +124,9 @@ header h1 {
         -ms-transform:translate(-30%, 0%);
         -o-transform:translate(-30%, 0%);
         transform:translate(-30%, 0%);
-    } 
+    }
+    
+    footer i {
+        font-size: 35px !important;
+    }
 }
